@@ -1,36 +1,7 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
 import {Text, View, StyleSheet, Image} from 'react-native';
 
 const HelloWorldApp = () => {
-  // const style = {
-  //   width: 200,
-  //   height: 200,
-  //   backgroundColor: 'rgb(74, 124, 226)',
-  //   borderWidth: 2,
-  //   borderColor: 'blue',
-  //   justifyContent: 'center',
-  //   //borderRadius: 20,
-  //   padding: 40,
-  //   margin: 80
-  // }
-  // const boxStyle = {
-  //   flex: 1,
-  //   backgroundColor: 'pink',
-  //   alignItems: 'center'
-  // };
-
-  // const textStyle = {
-  //   fontSize: 40,
-  //   fontWeight: 'bold',
-  //   color: 'red'
-  // }
   return (
     <View style={styles.background}>
       <View style={styles.box1}>
@@ -72,10 +43,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 90,
     backgroundColor: 'rgb(29,171,156)',
-    // borderWidth: 1,
-    // borderColor: 'red',
     justifyContent: 'center',
-    //borderRadius: 20,
     padding: 40,
     marginLeft: 60,
     marginTop: 220,
@@ -84,10 +52,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 90,
     backgroundColor: 'rgb(29,171,156)',
-    // borderWidth: 1,
-    // borderColor: 'blue',
     justifyContent: 'center',
-    //borderRadius: 20,
     padding: 40,
     marginLeft: 180,
     marginTop: -90
@@ -96,10 +61,7 @@ const styles = StyleSheet.create({
     width: 240,
     height: 90,
     backgroundColor: 'rgb(29,171,156)',
-    // borderWidth: 1,
-    // borderColor: 'green',
     justifyContent: 'center',
-    //borderRadius: 20,
     padding: 40,
     marginLeft: 60
   },
@@ -112,7 +74,6 @@ const styles = StyleSheet.create({
     width: 75,
     height: 20,
     fontSize: 15,
-    // fontWeight: 'bold',
     color: 'white',
     marginLeft: -30
   },
@@ -120,7 +81,6 @@ const styles = StyleSheet.create({
     width: 200,
     height: 20,
     fontSize: 13,
-    // fontWeight: 'bold',
     color: 'white',
     marginLeft: -20
   },
